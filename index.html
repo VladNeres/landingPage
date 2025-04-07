@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Landing Page</title>
+</head>
+<body>
+    
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-helmet-safety"> Build</i>
+            
+            <ul id="nav_list">
+                <li class= "nav-item active">
+                    <a href = "#home"> Inicio </a>
+                </li>
+                <li class= "nav-item">
+                    <a href = "#menu-servicos"> Serviços </a>
+                </li>
+                <li class= "nav-item">
+                    <a href = "#quemsomos"> Quem Somos nós </a>
+                </li>
+            </ul>
+                
+            <button class = "btn-default"> Peça Aqui</button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i> 
+            </button>
+        </nav>
+            
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class= "nav-item">
+                    <a href = "#home"> Inicio </a>
+                </li>
+                <li class= "nav-item">
+                    <a href = "#Menu"> Serviços </a>
+                </li>
+                <li class= "nav-item">
+                    <a href = "#teste"> Quem Somos nós </a>
+                </li>
+            </ul>
+
+            <button class = "btn-default"> Peça Aqui</button>
+        </div>
+        
+    </header>
+   
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title"> Trazendo Segurança para <span>Voce</span> </h1>
+                <p class="description"> "Nossa ancoragem garante estabilidade, sua tranquilidade é nossa prioridade!" </p>
+                
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default"> Fale Conosco </a>
+
+                    <a href="tel: +11957583917" id="phone_button">
+                        <button class="btn-default"> <i class="fa-solid fa-phone"> 
+                        </i></button>
+                        (11) 92342-3243
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img  src="src/images/Sale Instagram Story With Round Image Frames.png" >
+            </div>
+        </section>
+
+        
+        <section id="menu-servicos">
+            <h3 class="section-subtitle">Nossos Serviços</h3>
+            
+            <div id="menu-cartao">
+                
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/images/instalando ancoragem1.jpeg" class="dish-image" alt="">
+                    
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+                    
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                    <!-- <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div> -->
+                </div>
+                
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/images/instalando ancoragem2.png" class="dish-image" alt="">
+                    
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+                    
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                    <!-- <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div> -->
+                </div>
+                
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/images/usando equipamento.png" class="dish-image" alt="">
+                    
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+                    
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                    <!-- <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div> -->
+                </div>
+                
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/images/usando equipamento.png" class="dish-image" alt="">
+                    
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+                    
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                    <!-- <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        
+        <section id="quemsomos">
+            <div id="quemsomos-_content">
+                
+                <h2 class="section-subtitle"> Quem somos nós</h2>
+
+                <div id="hystory">
+                    <img  src="src/images/logo sem fundo.png" alt="Logo da empresa">
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, fuga at? Fuga incidunt est temporibus omnis et iste, optio vitae rem labore excepturi unde, enim harum provident possimus tenetur a?</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section id="testimonials">
+            <img src="src/images/Modelo seguranca.png.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/feedbacks/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/feedbacks/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyrigth">
+                &copy 2025
+            </span>
+          
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
