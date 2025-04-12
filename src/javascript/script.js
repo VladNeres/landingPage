@@ -40,9 +40,27 @@ $(document).ready(function() {
         distance: '20%'
     });
 
-    ScrollReveal().reveal('.dish', {
+    ScrollReveal().reveal('#banner', {
+        origin: 'rigth',
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('.shape', {
+        origin: 'rigth',
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('.servico', {
         origin: 'left',
         duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('#quemsomos', {
+        origin: 'right',
+        duration: 1000,
         distance: '20%'
     });
 

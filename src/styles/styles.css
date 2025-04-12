@@ -44,6 +44,11 @@ section {
     transition: background-color .3s ease;
 }
 
+.btn-default a{
+    text-decoration: none;
+    color: var(--color-font-nav-principal);
+    font-weight: 600;
+}
 .nav-item:hover{
  background-color: #036;
  border-radius: 12px;

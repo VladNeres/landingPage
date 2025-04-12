@@ -41,7 +41,7 @@
     align-items: center;
     background-color: #FFFFFF;
     padding: 8px 14px ;
-    font-weight: 500;
+    font-weight: 500px;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0,0.1);
     border-radius: 12px;
 }
@@ -54,7 +54,7 @@
     display: flex;
     align-items: start;
     justify-content: end;
-    width: 50%;
+    width: 40%;
     z-index: 2;
 
 }
@@ -69,34 +69,112 @@
 
 .shape {
     background-color: var(--color-background-body-shape); /* Tom mais escuro para o efeito de sombra */
-    width: 22%; /* Um pouco maior que o banner */
-    height: 100%; /* Ajuste para cobrir um pouco mais que a imagem */
+    width: 18%; /* Um pouco maior que o banner */
+    height: 96%; /* Ajuste para cobrir um pouco mais que a imagem */
     position: absolute;
     border-radius: 25px; /* Mesmo arredondamento que a imagem */
     top: 60%; /* Pequeno ajuste de posição */
-    right: 20%;
+    right: 27%;
     transform: translateY(-58%);
     z-index: 1; /* Mantém o shape atrás da imagem */
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); /* Efeito de sombra */
 }
 
-@media screen and (max-width: 1170px) {
-    #home{
-        min-height: 100%;
-        padding-top:0px;
-    }
-    #banner,
-    #banner.img,
-    #home .shape{
-        display: none;
-    }
 
-    #cta{
-        width: 100%;
-        text-align: center;
-        align-items: center;
+@media screen and (max-width: 1975px) {
+   
+    #banner {
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        width: 40%;
+        z-index: 2;
+    
+    }
+    
+    #banner img{
+        height: 100%; /* Mantém a proporção original */
+        max-width: 60%; /* Reduz o tamanho sem perder qualidade */
+        border-radius: 20px; /* Ajuste esse valor para mais ou menos arredondamento */
+        object-fit: cover; /* Garante que a imagem mantenha boa qualidade */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    }
+    
+    .shape {
+        background-color: var(--color-background-body-shape); /* Tom mais escuro para o efeito de sombra */
+        width: 20%; /* Um pouco maior que o banner */
+        height: 96%; /* Ajuste para cobrir um pouco mais que a imagem */
+        position: absolute;
+        border-radius: 25px; /* Mesmo arredondamento que a imagem */
+        top: 60%; /* Pequeno ajuste de posição */
+        right: 27%;
+        transform: translateY(-58%);
+        z-index: 1; /* Mantém o shape atrás da imagem */
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); /* Efeito de sombra */
     }
  }
+
+
+ @media screen and (max-width: 1590px) {
+   
+    #banner {
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        width: 50%;
+        z-index: 2;
+    
+    }
+    
+    #banner img{
+        height: 100%; /* Mantém a proporção original */
+        max-width: 65%; /* Reduz o tamanho sem perder qualidade */
+        border-radius: 20px; /* Ajuste esse valor para mais ou menos arredondamento */
+        object-fit: cover; /* Garante que a imagem mantenha boa qualidade */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    }
+    
+    .shape {
+        background-color: var(--color-background-body-shape); /* Tom mais escuro para o efeito de sombra */
+        width: 20%; /* Um pouco maior que o banner */
+        height: 96%; /* Ajuste para cobrir um pouco mais que a imagem */
+        position: absolute;
+        border-radius: 25px; /* Mesmo arredondamento que a imagem */
+        top: 60%; /* Pequeno ajuste de posição */
+        right: 27%;
+        transform: translateY(-58%);
+        z-index: 1; /* Mantém o shape atrás da imagem */
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); /* Efeito de sombra */
+    }
+ }
+ 
+ 
+ @media screen and (max-width: 1170px) {
+     #home{
+         min-height: 100%;
+         padding-top:0px;
+     }
+     #banner,
+     #banner.img,
+     #home .shape{
+         display: none;
+     }
+ 
+     #cta{
+         width: 100%;
+         text-align: center;
+         align-items: center;
+     }
+  }
+
+ @media screen and (max-width: 450px) {
+
+    #phone_button button{
+        display: none;
+    }
+ }
+
+
 
  @media screen and (max-width: 450px) {
 
